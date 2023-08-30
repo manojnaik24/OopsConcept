@@ -8,6 +8,10 @@ namespace OopsConcepts
 {
     public class PublicAM
     {
-
+        public void PAM()
+        {
+            //Uc1
+            Console.WriteLine("Hello world");
+        }
     }
 }
