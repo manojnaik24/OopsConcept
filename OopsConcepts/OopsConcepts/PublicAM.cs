@@ -12,6 +12,11 @@ namespace OopsConcepts
         {
             //Uc1
             Console.WriteLine("Hello world");
+
+            //UC2
+            int a=5; int b=5;
+            int c = a + b;
+            Console.WriteLine(c);
         }
     }
 }
