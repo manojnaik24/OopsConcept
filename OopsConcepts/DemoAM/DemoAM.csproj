@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{22C69AA9-19B2-4B6F-9F22-21E6C84ED6E6}</ProjectGuid>
+    <ProjectGuid>{300ED4DE-238E-42EE-B095-08924404E5D7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>OopsConcepts</RootNamespace>
-    <AssemblyName>OopsConcepts</AssemblyName>
+    <RootNamespace>DemoAM</RootNamespace>
+    <AssemblyName>DemoAM</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,14 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccessModifier.cs" />
-    <Compile Include="Constctre.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PublicAM.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OopsConcepts\OopsConcepts.csproj">
+      <Project>{22c69aa9-19b2-4b6f-9f22-21e6c84ed6e6}</Project>
+      <Name>OopsConcepts</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
