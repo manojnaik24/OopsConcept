@@ -27,7 +27,9 @@ namespace OopsConcepts
         }
         public Constctor()
         {
-            Console.WriteLine("First Program in VS");
+            int a=30; int b=20;
+            int c=a+b;
+            Console.WriteLine(c);
 
         }
 
