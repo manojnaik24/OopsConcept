@@ -32,9 +32,7 @@ namespace OopsConcepts
             Console.WriteLine("first Constructor");
             Console.WriteLine("first Constructor");
             Console.WriteLine("first Constructor");
-            Console.WriteLine("first Constructor");
-            Console.WriteLine("first Constructor");
-            Console.WriteLine("first Constructor");
+            Console.WriteLine("MY Nane is Manoj Kumar Naik H");
 
         }
 
