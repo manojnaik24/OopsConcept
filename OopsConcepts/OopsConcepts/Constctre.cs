@@ -28,7 +28,7 @@ namespace OopsConcepts
         public Constctor()
         {
             int a=30; int b=20;
-            int c=a*b;
+            int c=a/b;
             Console.WriteLine(c);
             Console.ReadLine();
 
