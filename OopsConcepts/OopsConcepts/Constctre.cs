@@ -27,12 +27,7 @@ namespace OopsConcepts
         }
         public Constctor()
         {
-
-
-            Console.WriteLine("first Constructor");
-            Console.WriteLine("first Constructor");
-            Console.WriteLine("first Constructor");
-            Console.WriteLine("MY Nane is Manoj Kumar Naik H");
+            Console.WriteLine("First Program in VS");
 
         }
 
