@@ -27,9 +27,9 @@ namespace OopsConcepts
         }
         public Constctor()
         {
-            int a=30; int b=20;
-            int c=a/b;
-            Console.WriteLine(c);
+
+            string name = "Manoj Kuamr Naik";
+            Console.WriteLine(name);
             Console.ReadLine();
 
         }
